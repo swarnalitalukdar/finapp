@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient"
+        android:padding="16dp"
+        tools:context=".QuizStartActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Beat the Score"
+            android:textColor="@android:color/white"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+    <TextView android:id="@+id/text_view_highscore"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_above="@+id/button_start_quiz"
+              android:layout_centerHorizontal="true"
+              android:layout_marginBottom="115dp"
+              android:text="Highscore: 0"
+              android:textColor="@color/white"
+              android:textSize="20sp"/>
+
+    <Button android:textSize="18sp"
+            android:background="@drawable/background_login"
+            android:id="@+id/button_start_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/startRed"
+            android:text="Start Quiz"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="92dp"/>
+
+</RelativeLayout>

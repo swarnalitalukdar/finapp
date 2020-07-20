@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FINAPP</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="signUp">Don\'t have an account?</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hintEmail">E-mail</string>
+    <string name="hintPass">Password</string>
+    <string name="btLogin">Log In</string>
+    <string name="btSignUp">Sign Up</string>
+    <string name="forget_password">Forget your Password?</string>
+    <string name="check_remember_me">Remember me</string>
+</resources>

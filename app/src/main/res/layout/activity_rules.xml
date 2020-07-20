@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".MainActivity">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Game Rules"
+              android:textSize="22sp"
+              android:textStyle="bold"
+              android:gravity="center"
+              android:paddingBottom="23dp" android:paddingTop="10dp"/>
+    <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="1. There will be 5 questions in each quiz.\n\n2. A maximum of 10 seconds will be given for each questions.\n\n3. Multiple attempts for answering a question is not allowed.\n\n4. Each question will fetch you 10 coins.\n\n5. Coins can be used to generate coupons/vouchers.\n\n7. One life can be used per quiz."
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+</RelativeLayout>
